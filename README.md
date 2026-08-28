@@ -49,48 +49,6 @@ npm run dev
 
 The React application will start at `http://localhost:5173` (or another port if 5173 is busy).
 
-## Project Structure
-
-### Backend (GameStore.Api)
-
-```
-GameStore.Api/
-├── Data/                  # Database context and migrations
-├── Dtos/                  # Data Transfer Objects
-├── Endpoints/             # Minimal API endpoints
-├── Models/                # Entity models (Game, Genre)
-├── appsettings.json       # Configuration
-└── Program.cs             # Application entry point
-```
-
-### Frontend (GameStore.React)
-
-```
-GameStore.React/
-├── src/
-│   ├── clients/           # API client services
-│   ├── components/        # React components
-│   ├── models/            # TypeScript interfaces
-│   ├── pages/             # Page components
-│   ├── App.tsx            # Main app component
-│   └── main.tsx           # Application entry point
-└── public/                # Static assets
-```
-
-## API Endpoints
-
-### Games
-
-- `GET /games` - Get all games
-- `GET /games/{id}` - Get a specific game
-- `POST /games` - Create a new game
-- `PUT /games/{id}` - Update a game
-- `DELETE /games/{id}` - Delete a game
-
-### Genres
-
-- `GET /genres` - Get all genres
-
 ## Technologies Used
 
 ### Backend
