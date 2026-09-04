@@ -654,4 +654,115 @@ a {
   .preview-panel {
     position: static;
   }
+
+}
+
+  .cms-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+
+
+.cms-text-block {
+    margin-bottom: 32px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+.cms-text-block p {
+    margin: 0;
+}
+
+
+.cms-quote-block {
+    margin: 40px 0;
+    padding: 24px 32px;
+
+    border-left: 4px solid #7c6cff;
+
+    font-size: 1.35rem;
+    font-style: italic;
+}
+
+
+.cms-separator {
+    margin: 48px 0;
+    opacity: 0.25;
+}
+
+
+.cms-image-block {
+    margin: 40px 0;
+}
+
+
+.cms-image-block img {
+    width: 100%;
+    display: block;
+
+    border-radius: 18px;
+
+    object-fit: cover;
+}
+
+.cms-block {
+    width: 100%;
+
+    margin-bottom: 24px;
+    padding: 20px;
+
+    border: 2px solid #5b6275 !important;
+    border-radius: 10px;
+
+    background: #10131d;
+}
+
+
+/* TEXT / IMAGE / QUOTE 这些标题 */
+.cms-block-label {
+    margin-bottom: 12px;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 0.05em;
+}
+
+
+/* Text */
+.cms-text-block {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* Quote */
+.cms-quote-block {
+    margin: 0;
+
+    padding: 16px 20px;
+
+    border-left: 4px solid #8b8fa3;
+
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* Separator */
+.cms-separator {
+    margin: 10px 0;
+}
+
+
+/* Image */
+.cms-image-block {
+    display: block;
+
+    width: 100%;
+    max-width: 600px;
+
+    border-radius: 8px;
 }

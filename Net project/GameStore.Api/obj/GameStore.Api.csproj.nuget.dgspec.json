@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ken/Downloads/game-store-fancy-ui/GameStore.Api/GameStore.Api.csproj": {}
+    "/Users/ken/Desktop/Net project/Net project/GameStore.Api/GameStore.Api.csproj": {}
   },
   "projects": {
-    "/Users/ken/Downloads/game-store-fancy-ui/GameStore.Api/GameStore.Api.csproj": {
+    "/Users/ken/Desktop/Net project/Net project/GameStore.Api/GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ken/Downloads/game-store-fancy-ui/GameStore.Api/GameStore.Api.csproj",
+        "projectUniqueName": "/Users/ken/Desktop/Net project/Net project/GameStore.Api/GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "/Users/ken/Downloads/game-store-fancy-ui/GameStore.Api/GameStore.Api.csproj",
+        "projectPath": "/Users/ken/Desktop/Net project/Net project/GameStore.Api/GameStore.Api.csproj",
         "packagesPath": "/Users/ken/.nuget/packages/",
-        "outputPath": "/Users/ken/Downloads/game-store-fancy-ui/GameStore.Api/obj/",
+        "outputPath": "/Users/ken/Desktop/Net project/Net project/GameStore.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ken/.nuget/NuGet/NuGet.Config"
@@ -55,6 +55,58 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.AI": {
+              "target": "Package",
+              "version": "[10.9.0, )"
+            },
+            "Microsoft.Extensions.AI.OpenAI": {
+              "target": "Package",
+              "version": "[10.9.0, )"
+            },
+            "ModelContextProtocol.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "OllamaSharp": {
+              "target": "Package",
+              "version": "[5.4.30, )"
+            },
+            "Piranha": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Piranha.AspNetCore": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Piranha.AspNetCore.Identity.SQLite": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Piranha.AttributeBuilder": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Piranha.Data.EF.SQLite": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Piranha.ImageSharp": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Piranha.Local.FileStorage": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Piranha.Manager": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Piranha.Manager.LocalAuth": {
+              "target": "Package",
+              "version": "[12.2.0, )"
             }
           },
           "imports": [

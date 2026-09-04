@@ -19,6 +19,19 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.9.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="10.9.0" />
+    <PackageReference Include="ModelContextProtocol.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="OllamaSharp" Version="5.4.30" />
+    <PackageReference Include="Piranha" Version="12.2.0" />
+    <PackageReference Include="Piranha.AspNetCore" Version="12.2.0" />
+    <PackageReference Include="Piranha.AspNetCore.Identity.SQLite" Version="12.2.0" />
+    <PackageReference Include="Piranha.AttributeBuilder" Version="12.2.0" />
+    <PackageReference Include="Piranha.Data.EF.SQLite" Version="12.2.0" />
+    <PackageReference Include="Piranha.ImageSharp" Version="12.2.0" />
+    <PackageReference Include="Piranha.Local.FileStorage" Version="12.2.0" />
+    <PackageReference Include="Piranha.Manager" Version="12.2.0" />
+    <PackageReference Include="Piranha.Manager.LocalAuth" Version="12.2.0" />
   </ItemGroup>
 
 </Project>
